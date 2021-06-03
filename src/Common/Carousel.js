@@ -16,8 +16,8 @@ const Carousel = () => {
       <div className="bg-dark container_carousel">
         <br />
         <br />
-        <div className="carousel__dash">
-          <h1 className="align-items-center"></h1>
+        <div className="home__dash">
+          <p className="align-items-center"></p>
         </div>
         <h2 className="carousel_heading text-center">What our Students say</h2>
         <OwlCarousel className="owl-theme" items="1" loop autoplay dots>

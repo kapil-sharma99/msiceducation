@@ -14,7 +14,7 @@ const Card2 = (props) => {
           <img
             className="card2-img-top rounded-circle shadow rounded img_rot"
             src={props.img}
-            alt="Card image cap"
+            alt="Card_cap"
           />
           <div className="card-body">
             <h4

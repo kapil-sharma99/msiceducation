@@ -3,7 +3,6 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import Home from "./components/Home/Home";
 import Courses from "./components/Courses/Courses";
-import Contact from "./components/Contact/Contact";
 import About from "./components/About/About";
 import Nav from "./components/Nav/Nav";
 import Footer from "./components/Footer/Footer";

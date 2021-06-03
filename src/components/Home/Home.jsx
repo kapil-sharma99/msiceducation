@@ -28,7 +28,7 @@ const Home = () => {
 				</div>
 			</section>
 			<div className="home__dash home__dash1">
-				<h1 className="align-items-center dash"></h1>
+				<p className="align-items-center dash"></p>
 			</div>
 			<RandomTypist />
 			<div className="container_about about-main rounded">
@@ -45,7 +45,7 @@ const Home = () => {
 				<NavLink className="btn1" to='/about'>More About Us</NavLink>
 			</div>
 			<div className="home__dash">
-				<h1 className="align-items-center dash"></h1>
+				<p className="align-items-center dash"></p>
 			</div>
 			<div className="container">
 				<h1 className="heading_home text-center">
@@ -55,7 +55,7 @@ const Home = () => {
 			</div>
 			<br />
 			<div className="home__dash">
-				<h1 className="align-items-center dash"></h1>
+				<p className="align-items-center dash"></p>
 			</div>
 			<div className="container cont_details">
 				<h1 className="heading_home text-center" style={{marginBottom: "4vh"}}><strong className="highlighted">Online Classes Details</strong></h1>

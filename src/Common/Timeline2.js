@@ -9,7 +9,7 @@ const Timeline2 = () => {
           <div className="col-md-12">
             <div className="main-timeline">
               <div className="timeline " style={{ borderLeftWidth: "0px" }}>
-                <a className="timeline-content">
+                <button style={{ border: "none" }} className="timeline-content">
                   <span className="timeline-year">MSIC</span>
                   <div className="timeline-icon">
                     <i className="fas fa-chalkboard-teacher"></i>
@@ -20,10 +20,10 @@ const Timeline2 = () => {
                     and Projector cum Visulizer. Student can re-visit any class
                     with recorded backup video.
                   </p>
-                </a>
+                </button>
               </div>
               <div className="timeline" style={{ borderLeftWidth: "0px" }}>
-                <a className="timeline-content">
+                <button style={{ border: "none" }} className="timeline-content">
                   <span className="timeline-year">MSIC</span>
                   <div className="timeline-icon">
                     <i className="fas fa-video"></i>
@@ -33,10 +33,10 @@ const Timeline2 = () => {
                     Backup Video Class is provided so that no class is missed by
                     the Student.
                   </p>
-                </a>
+                </button>
               </div>
               <div className="timeline" style={{ borderLeftWidth: "0px" }}>
-                <a className="timeline-content">
+                <button style={{ border: "none" }} className="timeline-content">
                   <span className="timeline-year">MSIC</span>
                   <div className="timeline-icon">
                     <i className="fa fa-globe"></i>
@@ -47,10 +47,10 @@ const Timeline2 = () => {
                     from the comfort of their home with the help of smart
                     scheduling system through App.
                   </p>
-                </a>
+                </button>
               </div>
               <div className="timeline" style={{ borderLeftWidth: "0px" }}>
-                <a className="timeline-content">
+                <button style={{ border: "none" }} className="timeline-content">
                   <span className="timeline-year">MSIC</span>
                   <div className="timeline-icon">
                     <i className="fas fa-book-reader"></i>
@@ -60,10 +60,10 @@ const Timeline2 = () => {
                     Collection of Books and Materials is maintained at the
                     Institute for the Students.
                   </p>
-                </a>
+                </button>
               </div>
               <div className="timeline" style={{ borderLeftWidth: "0px" }}>
-                <a className="timeline-content">
+                <button style={{ border: "none" }} className="timeline-content">
                   <span className="timeline-year">MSIC</span>
                   <div className="timeline-icon">
                     <i className="fas fa-chalkboard"></i>
@@ -75,10 +75,10 @@ const Timeline2 = () => {
                     Projector and Visulization based teaching which helps
                     students in grasping the tough concepts with ease.
                   </p>
-                </a>
+                </button>
               </div>
               <div className="timeline" style={{ borderLeftWidth: "0px" }}>
-                <a className="timeline-content">
+                <button style={{ border: "none" }} className="timeline-content">
                   <span className="timeline-year">MSIC</span>
                   <div className="timeline-icon">
                     <i className="fas fa-tasks"></i>
@@ -89,7 +89,7 @@ const Timeline2 = () => {
                     forth get you prepared for the board test and you confirm
                     you dimension of planning.
                   </p>
-                </a>
+                </button>
               </div>
             </div>
           </div>

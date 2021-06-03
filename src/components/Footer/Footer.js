@@ -49,7 +49,7 @@ const Footer = () => {
             <div className="col-lg-4 col-md-6 col-sm-10">
               <div className="row">
                 <h1>
-                  <img className="img__footer" src={logo} />{" "}
+                  <img alt="logo" className="img__footer" src={logo} />{" "}
                   <strong style={{ borderTop: "3vh" }}>MSIC</strong>
                 </h1>
               </div>

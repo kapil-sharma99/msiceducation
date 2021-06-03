@@ -64,6 +64,7 @@ const About = () => {
             <div className="mapouter">
               <div className="gmap_canvas">
                 <iframe 
+                  title="Location"
                   width="100%" 
                   height="500" 
                   id="gmap_canvas" 

@@ -15,7 +15,7 @@ class Nav extends Component {
     return (
       <nav className="NavbarItems d-flex align-items-center sticky-top">
         <h1 className="Navbar-logo">
-          <img src={logo} /> MSIC
+          <img alt="logo" src={logo} /> MSIC
         </h1>
         <div className="menu-icon" onClick={this.handleClick}>
           <i

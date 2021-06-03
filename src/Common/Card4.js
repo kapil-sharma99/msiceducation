@@ -18,7 +18,7 @@ const Card4 = () => {
           <div className="col-lg-4 col-xs-12 col-sm-12 col-md-8 mx-auto">
             <div class="wrapper">
               <div class="card4">
-                <img src={Batch} />
+                <img alt="" src={Batch} />
                 <div class="descriptions">
                   <h1>Seperate Batch</h1>
                   <p>
@@ -37,7 +37,7 @@ const Card4 = () => {
           <div className="col-lg-4  col-sm-6 col-md-8 mx-auto">
             <div class="wrapper">
               <div class="card4">
-                <img src={Chat} />
+                <img alt="" src={Chat} />
                 <div class="descriptions">
                   <h1>Live Chat</h1>
                   <p>
@@ -56,7 +56,7 @@ const Card4 = () => {
           <div className="col-lg-4 col-sm-6 col-md-8 mx-auto">
             <div class="wrapper">
               <div class="card4">
-                <img src={VideoBackup} />
+                <img alt="" src={VideoBackup} />
                 <div class="descriptions">
                   <h1>Video Backup</h1>
                   <p>
@@ -76,7 +76,7 @@ const Card4 = () => {
           <div className="col-lg-4 col-sm-6 col-md-8 mx-auto">
             <div class="wrapper">
               <div class="card4">
-                <img src={StudyMaterial} />
+                <img alt="" src={StudyMaterial} />
                 <div class="descriptions">
                   <h1>StudyMaterial</h1>
                   <p>
@@ -95,7 +95,7 @@ const Card4 = () => {
           <div className="col-lg-4 col-sm-6 col-md-8 mx-auto">
             <div class="wrapper">
               <div class="card4">
-                <img src={NoticeBoard} />
+                <img alt="" src={NoticeBoard} />
                 <div class="descriptions">
                   <h1>Notice Board</h1>
                   <p>
@@ -114,7 +114,7 @@ const Card4 = () => {
           <div className="col-lg-4 col-sm-6 col-md-8 mx-auto">
             <div class="wrapper">
               <div class="card4">
-                <img src={Timetable} />
+                <img alt="" src={Timetable} />
                 <div class="descriptions">
                   <h1>Smart Timetable</h1>
                   <p>
@@ -134,7 +134,7 @@ const Card4 = () => {
           <div className="col-lg-4 col-sm-6 col-md-8 mx-auto">
             <div class="wrapper">
               <div class="card4">
-                <img src={Announcement} />
+                <img alt="" src={Announcement} />
                 <div class="descriptions">
                   <h1 style={{ fontSize: "2.2rem" }}>Announcement Section</h1>
                   <p>
@@ -157,7 +157,7 @@ const Card4 = () => {
           <div className="col-lg-4 col-sm-6 col-md-8 mx-auto">
             <div class="wrapper">
               <div class="card4">
-                <img src={Attendence} />
+                <img alt="" src={Attendence} />
                 <div class="descriptions">
                   <h1>Smart Attendence</h1>
                   <p>
@@ -178,7 +178,7 @@ const Card4 = () => {
           <div className="col-lg-4 col-sm-6 col-md-8 mx-auto">
             <div class="wrapper">
               <div class="card4">
-                <img src={Portfolio} />
+                <img alt="card_img" src={Portfolio} />
                 <div class="descriptions">
                   <h1>Student Porfolio</h1>
                   <p>
