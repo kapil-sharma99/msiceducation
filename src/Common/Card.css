@@ -1,0 +1,27 @@
+.card-img-top {
+  height: 30vh;
+}
+
+.img-rot {
+  border-bottom: 2px solid #ccc !important;
+}
+
+.cards:hover {
+  transform: translateY(-10px);
+  transition: 400ms;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+@media screen and (max-width: 960px) {
+  .cardd-content {
+    height: 9vh !important;
+  }
+
+  .cards {
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 3px 3px 5px 6px #ccc;
+  }
+}

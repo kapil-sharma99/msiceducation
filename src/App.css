@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", sans-serif;
+}
+
+.strong {
+  background: #ffd266;
+  color: black;
+  border-radius: 5px;
+}
+
+.msic {
+  font-size: 3rem;
+  background: #4ad9e4;
+  border-radius: 6px;
+}
+
+.main_image {
+  height: 400px;
+}
+
+.main_carousel {
+  height: 70vh !important;
+  position: absolute;
+}
+
+.main_carousel_img {
+  height: 60vh !important;
+}
+
+.carousel,
+.slide,
+.carousel .carousel-inner,
+.carousel .carousel-item,
+.carousel .carousel-item img,
+.carousel .carousel-control {
+  border-radius: 35px;
+  overflow: hidden;
+}
+
+#header {
+  width: 100%;
+  height: 75vh;
+  margin-top: 1vh;
+}
+
+.head {
+  padding-top: 9vh;
+  padding-left: 3vh;
+}
+
+.head-strong {
+  color: #4ad9e4;
+  background: whitesmoke;
+}
+
+#header .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  height: 200px;
+  padding-left: 10vw;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@media screen and (min-width: 768) and (max-widht: 992px) {
+  .home_head {
+    padding-top: 15vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main_carousel {
+    width: 100%;
+    padding-top: 0;
+    padding-left: 0;
+    height: 50vh !important;
+  }
+
+  .cards {
+    border: 1px solid #4ad9e4 !important;
+  }
+  .home_head {
+    padding-top: 10vh;
+  }
+
+  .carousel,
+  .slide,
+  .carousel .carousel-inner,
+  .carousel .carousel-item,
+  .carousel .carousel-item img,
+  .carousel .carousel-control {
+    border-radius: 0px;
+    margin-top: 5vh;
+  }
+  .main_carousel_img {
+    height: 30vh !important;
+  }
+}

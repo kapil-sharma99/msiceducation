@@ -1,0 +1,89 @@
+.car_style {
+  float: left;
+}
+
+.cont_owl_carousel {
+  background: black;
+}
+
+.container_carousel {
+  height: 75vh;
+  width: 100%;
+  margin: 0;
+  margin-right: 0;
+  padding: 0;
+}
+
+.container_carousel img {
+  height: 18vh;
+  width: 9vw !important;
+}
+
+.carousel_heading {
+  padding-top: 4vh;
+  margin-bottom: 3vh;
+  color: #4ad9e4;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.items p {
+  max-width: 80%;
+  color: white;
+  padding-left: 20vw;
+}
+
+.items h2 {
+  color: #ffb606;
+}
+
+.items span {
+  color: whitesmoke;
+}
+
+.btn1_carousel {
+  display: flex;
+  justify-content: center;
+  padding: 0.6rem 1.5rem;
+  background: #4ad9e4;
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin-top: 2vh;
+  color: #f6f6f6;
+  border-radius: 8px;
+  transition: background 0.5s;
+}
+
+.btn1_carousel:hover {
+  background: rgba(73, 63, 252, 1);
+  color: #f6f6f6;
+}
+
+@media screen and (max-width: 992px) {
+  .container_carousel {
+    padding-bottom: 790px;
+  }
+
+  .carousel_heading {
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    margin-bottom: 3vh;
+  }
+
+  .btn1_carousel {
+    margin-left: 0;
+    font-size: 1rem;
+  }
+
+  .footer_testimonial_button {
+    display: flex;
+    justify-content: center;
+  }
+
+  .items img {
+    height: 120px;
+    width: 100px !important;
+  }
+}

@@ -1,0 +1,188 @@
+.container_about_main {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 3rem;
+  margin-bottom: 4vh;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.highlighted {
+  background: linear-gradient(
+    90deg,
+    rgba(110, 90, 253) 0%,
+    rgba(73, 63, 252, 1) 100%
+  );
+  padding: 0 4vw;
+  color: white;
+  border-radius: 4px;
+}
+
+.container_note {
+  max-width: 1400px;
+  text-align: center;
+  padding: 2vh 3rem;
+  margin: 0 auto;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  background: #e8ebf1;
+  border-radius: 5px;
+}
+
+.container_study {
+  max-width: 1400px;
+  text-align: center;
+  margin-top: 2vh;
+  margin: 0 auto;
+  padding: 0 3rem;
+  margin-bottom: 2vh;
+}
+
+.container_study h2 {
+  color: #4ad9e4;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  font-weight: 700;
+  margin-bottom: 5vh;
+}
+
+.container_note h2 {
+  color: #4ad9e4;
+  font-size: 3rem;
+  letter-spacing: 3.5px;
+  font-weight: 700;
+}
+
+.container_about_main h2 {
+  color: #4ad9e4;
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: 6px;
+  margin-top: 4vh;
+}
+
+.container_about_main h3 {
+  color: #777;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.image_about {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.container_about_main p {
+  font-size: 1.4rem;
+  text-align: center;
+  line-height: 1.6rem;
+  margin-bottom: 5rem;
+  color: grey;
+}
+
+.heading {
+  padding-top: 6vh;
+}
+
+.container_app {
+  max-width: 1400px;
+  text-align: center;
+  margin-bottom: 4vh;
+  margin-top: 1rem;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+.container_app h2 {
+  color: #4ad9e4;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 3.5px;
+}
+
+.container_app p {
+  font-size: 1.4rem;
+  text-align: center;
+  line-height: 1.6rem;
+  color: grey;
+}
+
+.about_app_p1 {
+  margin-top: 3vh;
+}
+
+.about_app_p2 {
+  margin-bottom: 4rem;
+}
+
+.container_key {
+  max-width: 1400px;
+  text-align: center;
+  margin-bottom: 4vh;
+  margin-top: 1rem;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+.container_key h2 {
+  color: #4ad9e4;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.container_note p {
+  font-size: 1.4rem;
+  text-align: center;
+  line-height: 1.6rem;
+  color: grey;
+}
+
+.img_about {
+  width: 300px;
+  height: 320px;
+}
+
+@media screen and (max-width: 960px) {
+  .img_about {
+    width: 280px;
+  }
+  .container_about_main p {
+    font-size: 1.1rem;
+  }
+  .container_app p {
+    font-size: 1.1rem;
+  }
+  .container_note p {
+    font-size: 1.1rem;
+  }
+  .container_about_main h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+  }
+  .container_about_main h3 {
+    font-size: 1.8rem;
+    font-weight: 300;
+  }
+  .container_app h2 {
+    font-weight: 600;
+    font-size: 2.3rem;
+    letter-spacing: 2.8px;
+  }
+  .container_key h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+  }
+  .container_study h2 {
+    font-size: 2rem;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+  }
+  .container_note h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+  }
+}

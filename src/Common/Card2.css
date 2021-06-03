@@ -1,0 +1,36 @@
+.card2-img-top {
+  height: 30vh;
+  width: 35vh;
+  margin-left: 6.5vh;
+  margin-top: 2vh;
+}
+
+.img-rot {
+  border-bottom: 2px solid #ccc !important;
+}
+
+.cards:hover {
+  transform: translateY(-10px);
+  transition: 400ms;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+@media screen and (max-width: 960px) {
+  .cardd-content {
+    height: 9vh !important;
+  }
+
+  .cards {
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 3px 3px 5px 6px #ccc;
+  }
+
+  .img-rot {
+    width: 270px;
+    margin-left: 10vw;
+    margin-top: 3vh;
+  }
+}

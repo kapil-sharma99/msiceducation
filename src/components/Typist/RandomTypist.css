@@ -1,0 +1,17 @@
+.typist {
+  text-align: center;
+}
+
+.typist-heading {
+  font-size: 2rem;
+}
+
+.typist-description {
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 992px) {
+  .typist {
+    margin-top: 150px;
+  }
+}

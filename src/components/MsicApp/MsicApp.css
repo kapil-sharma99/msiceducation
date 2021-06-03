@@ -1,0 +1,61 @@
+.flex_app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-btn_app {
+  width: 45%;
+  max-width: 160px;
+  color: #fff;
+  margin: 20px 10px;
+  text-align: left;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: "Lucida Grande", sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+.blu_app {
+  background-color: #101010;
+  transition: background-color 0.25s linear;
+}
+.blu_app:hover {
+  background-color: #454545;
+  color: #ffb606;
+}
+.btn_i {
+  width: 20%;
+  text-align: center;
+  font-size: 28px;
+  margin-right: 7px;
+}
+.big-txt {
+  font-size: 17px;
+  text-transform: capitalize;
+}
+
+.blu_app p {
+  padding-top: 1.4vh;
+}
+
+.container_app_btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}
+
+.carousel__dash h1 {
+  background: #4ad9e4;
+  height: 5px;
+  width: 80px;
+  margin-bottom: 1vh;
+}
+
+.carousel__dash {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 992px) {
+}
