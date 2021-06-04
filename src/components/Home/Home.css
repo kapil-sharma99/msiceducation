@@ -75,6 +75,8 @@
   text-decoration: none;
   margin-bottom: 4vh;
   color: #f6f6f6;
+  margin-left: 4px;
+  margin-right: 4px;
   border-radius: 10px;
   transition: background 0.5s;
 }
@@ -121,15 +123,33 @@
   margin-bottom: 2vh;
 }
 
+.btn1_carousel:hover {
+  background: rgba(73, 63, 252, 1);
+  color: #f6f6f6;
+}
+
 .home__dash p {
   background: #4ad9e4;
   height: 5px;
   width: 80px;
 }
+.footer_testimonial_button {
+  display: flex;
+  justify-content: center;
+}
 
 @media screen and (max-width: 991px) {
   .ani__image {
     display: none;
+  }
+  .btn1_carousel {
+    margin-left: 0;
+    font-size: 1rem;
+  }
+
+  .footer_testimonial_button {
+    display: contents;
+    justify-content: center;
   }
   .head {
     margin-bottom: 20vh;

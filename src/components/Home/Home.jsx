@@ -42,7 +42,12 @@ const Home = () => {
 					Our Institute believes in reliability, quality and standards. The Faculty ( Manish Sir) of our Institute are highly experienced and completely committed towards coaching, training and being the right guide for each and every student. Our parents and students have continuously supported and appreciated our teaching methods and we are proud of them.
 					Take advantage of some of the best guides who are up-to-date with the latest happenings and methodologies followed in the education scenario. We help you with extensive study materials, assignments, back up classes which are made to help you learn according to your grade and for better comprehension. Regular exams are conducted so that students can know where they stand and strive to improve and achieve their goals. Our fee structure is also Cost effective.
 				</p>
-				<NavLink className="btn1" to='/about'>More About Us</NavLink>
+				<div className="footer_testimonial_button">
+					<NavLink className="btn1" to='/about'>More About Us</NavLink>
+          			<NavLink className="btn1" to="/testimonial">
+            			Testimonials
+          			</NavLink>
+        		</div>
 			</div>
 			<div className="home__dash">
 				<p className="align-items-center dash"></p>
@@ -64,6 +69,7 @@ const Home = () => {
 				<ul className="online_content_benefits">
 					<li>Flexible schedule and safe environment</li>
 					<li>Easily communicate with students</li>
+					<li>Recover class at home.</li>
 				</ul>
 			</div>
 			<br />

@@ -8,7 +8,6 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.min.css";
 import "owl.carousel/dist/assets/owl.theme.default.min.css";
 import "./Carousel.css";
-import { NavLink } from "react-router-dom";
 
 const Carousel = () => {
   return (
@@ -104,11 +103,7 @@ const Carousel = () => {
             <span>CA foundation: AIR-18</span>
           </div>
         </OwlCarousel>
-        <div className="footer_testimonial_button">
-          <NavLink className="btn1_carousel" to="/testimonial">
-            Testimonials
-          </NavLink>
-        </div>
+
         <br />
       </div>
     </div>
