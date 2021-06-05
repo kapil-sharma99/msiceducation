@@ -39,7 +39,7 @@ const Testimoials = () => {
           <div className="col-sm-12 col-lg-10 mx-auto">
             <div className="row gy-3 gx-5">
               <Card2
-                title="Chandan Sharma"
+                title="CA Chandan Sharma"
                 img={Chandan}
                 content="I am indebted to my father for living, but to my teacher for living well.” Truly special teacher who saw my tomorrow in my eyes and inspire me to purse CA and helped me in every ways possible to clear it and now i am CA because of you only. Thanks for your contribution due to which i am now working with multi national company and leading accounts department."
               />
