@@ -112,11 +112,11 @@ const Footer = () => {
           className="text-center p-3"
           style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
         >
-          Copyright © 2020 India:
+          Copyright © 2020 India :
           <a className="text-white" href="https://msiceducation.in/">
             MSIC
           </a>
-          . All rights reserved
+          . All rights reserved. Made with ❤ by <a href="msiceducation.in" style={{textDecoration: "none", color: "#4ad9e4"}}>Kapil Sharma</a>
         </div>
       </footer>
     </>
