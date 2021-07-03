@@ -117,7 +117,10 @@ const Footer = () => {
             MSIC
           </a>
           . All rights reserved. Made with ❤ by{" "}
-          <a href="#" style={{ textDecoration: "none", color: "#4ad9e4" }}>
+          <a
+            href="https://www.linkedin.com/in/kapil-sharma-thecodiyapa/"
+            style={{ textDecoration: "none", color: "#4ad9e4" }}
+          >
             Kapil Sharma
           </a>
         </div>
